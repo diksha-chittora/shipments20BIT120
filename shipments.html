@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Google Form Creator</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Google Form Creator</h1>
+    <button id="createForm">Create New Form</button>
+    <div id="formList"></div>
+    <div id="formEditor" class="hidden">
+        <div id="formPreview" class="hidden">
+            <h2>Form Preview</h2>
+            <div id="previewQuestions"></div>
+          </div>
+          
+      <h2>Create Form</h2>
+      <input type="text" id="formTitle" placeholder="Form Title">
+      <textarea id="formDescription" placeholder="Form Description"></textarea>
+      <div id="questions"></div>
+      <button id="addShortAnswer">Add Short Answer</button>
+      <button id="addMultipleChoice">Add Multiple Choice</button>
+      <button id="addCheckboxes">Add Checkboxes</button>
+      <button id="saveForm">Save Form</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
